@@ -1,0 +1,36 @@
+body{
+    background: radial-gradient(gold, black);
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    
+}
+.container
+{
+    display: flex;
+    gap: 15px;
+}
+.item
+{
+    background: rgba(55, 198, 237, 0.2);
+    border-radius: 0px 10px;
+    height: 200px;
+    border: outset 3px cyan;
+    
+    backdrop-filter: blur(10px);
+}
+h3
+{
+    text-align: center;
+    color: red;
+}
+h5
+{
+    text-align: center;
+    color: blue;
+    border: dotted 1px red;
+    position: relative;
+    bottom: 10px;
+}
